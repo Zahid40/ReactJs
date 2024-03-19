@@ -3,6 +3,7 @@ import "./App.css";
 import { Tooltip, initTWE, Ripple, Collapse } from "tw-elements";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import data from "./cardplaceholderdata.json"
 
 function App() {
   const [height, setHeight] = useState(0);
@@ -20,7 +21,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Card />
+      {data.cards.map(card =>{
+        return <Card key={card.title} title={card.title} desc={card.description} />
+      })}
+      
       <label htmlFor="height">Height</label>
       <input
         name="height"

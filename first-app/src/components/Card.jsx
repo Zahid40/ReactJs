@@ -1,13 +1,12 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
   return (
     <>
       <div className="block rounded-lg bg-white p-6 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
-        <h5 className="mb-2 text-xl font-medium leading-tight">Card title</h5>
+        <h5 className="mb-2 text-xl font-medium leading-tight">{props.title}</h5>
         <p className="mb-4 text-base">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {props.desc}
         </p>
         <button
           type="button"

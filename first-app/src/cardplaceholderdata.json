@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "title": "Card 1",
+      "description": "This is the description for Card 1. It can contain relevant information about the card."
+    },
+    {
+      "title": "Card 2",
+      "description": "Here is the description for Card 2. Feel free to customize it as needed."
+    },
+    {
+      "title": "Card 3",
+      "description": "Card 3 has its own description. You can replace this text with your content."
+    },
+    {
+      "title": "Card 4",
+      "description": "Description for Card 4. Modify this text according to your requirements."
+    },
+    {
+      "title": "Card 5",
+      "description": "Customize the description for Card 5 based on the content you want to display."
+    }
+  ]
+}
